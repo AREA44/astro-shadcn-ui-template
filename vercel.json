@@ -1,0 +1,8 @@
+{
+  "installCommand": "pnpm install",
+  "buildCommand": "astro build",
+  "outputDirectory": "dist",
+  "github": {
+    "silent": true
+  }
+}
