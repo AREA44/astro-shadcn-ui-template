@@ -11,7 +11,7 @@ interface Props {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 
 if (Astro.props.ogImage === undefined) {
-  Astro.props.ogImage = new URL('og-image.webp', Astro.url)
+  Astro.props.ogImage = new URL('og-image.webp', canonicalURL)
 }
 
 const { title, description, ogImage } = Astro.props
@@ -23,7 +23,7 @@ const { title, description, ogImage } = Astro.props
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="generator" content={Astro.generator} />
 <link rel="canonical" href={canonicalURL} />
-<link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" type="image/svg+xml" href={`${canonicalURL}favicon.svg`} />
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
