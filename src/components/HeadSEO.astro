@@ -2,6 +2,8 @@
 import '@/styles/globals.css'
 import '@/styles/fonts.css'
 
+import { ViewTransitions } from 'astro:transitions'
+
 interface Props {
   title?: string | undefined
   description?: string | undefined
@@ -39,3 +41,5 @@ const { title, description, ogImage } = Astro.props
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={ogImage} />
+
+<ViewTransitions />
