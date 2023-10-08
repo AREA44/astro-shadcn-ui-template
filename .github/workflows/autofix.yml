@@ -24,4 +24,4 @@ jobs:
         run: pnpm exec prettier -w . "!.github"
 
       - name: Run autofix.ci
-        uses: autofix-ci/action@v1.1
+        uses: autofix-ci/action@v1.3
