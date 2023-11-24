@@ -22,6 +22,8 @@ Now, you can open your browser and navigate to http://localhost:4321 to see the 
 - [shadcn/ui](https://ui.shadcn.com): A collection of reusable UI components for building responsive and accessible interfaces.
 - The template includes support for a theme toggle, allowing users to switch between light and dark themes.
 
+## How to add components
+
 ## License
 
 Licensed under the [MIT License](LICENSE).
