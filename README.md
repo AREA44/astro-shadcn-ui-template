@@ -22,6 +22,18 @@ Now, you can open your browser and navigate to http://localhost:4321 to see the 
 - [shadcn/ui](https://ui.shadcn.com): A collection of reusable UI components for building responsive and accessible interfaces.
 - The template includes support for a theme toggle, allowing users to switch between light and dark themes.
 
+## How to add components
+
+Shadcn UI is a collection of re-usable components that can be easily integrated into your applications. It is not a component library, but rather a set of components that you can copy and paste into your projects.
+
+To add a new component to your application, please refer to the [configuration guide](https://ui.shadcn.com/docs/installation/astro#thats-it).
+
+For detailed documentation on using Shadcn UI, please visit the [full documentation](https://ui.shadcn.com/docs).
+
+Shadcn UI is primarily built for the React framework. If you are unfamiliar with framework components in Astro, we recommend reading the [framework components guide](https://docs.astro.build/en/core-concepts/framework-components/) to get started.
+
+Feel free to explore the various components and enhance your application with Shadcn UI!
+
 ## License
 
 Licensed under the [MIT License](LICENSE).
