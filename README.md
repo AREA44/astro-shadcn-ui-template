@@ -26,7 +26,7 @@ Now, you can open your browser and navigate to http://localhost:4321 to see the 
 
 Shadcn UI is a collection of re-usable components that can be easily integrated into your applications. It is not a component library, but rather a set of components that you can copy and paste into your projects.
 
-To add a new component to your application, please refer to the [configuration guide](https://ui.shadcn.com/docs/installation/astro#thats-it). 
+To add a new component to your application, please refer to the [configuration guide](https://ui.shadcn.com/docs/installation/astro#thats-it).
 
 For detailed documentation on using Shadcn UI, please visit the [full documentation](https://ui.shadcn.com/docs).
 
