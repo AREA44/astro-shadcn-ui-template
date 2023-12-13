@@ -1,6 +1,3 @@
 {
-  "extends": ["config:base"],
-  "dependencyDashboard": true,
-  "labels": ["renovate"],
-  "automerge": true
+  "extends": ["github>area44/renovate-config"]
 }
