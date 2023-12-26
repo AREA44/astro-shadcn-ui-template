@@ -29,8 +29,7 @@ jobs:
         run: bun install
   
       - name: Format with Prettier
-        with:
-          run: bun exec prettier -w . "!.github"
+        run: bun exec prettier -w . "!.github"
         
       - name: Run autofix.ci
         uses: autofix-ci/action@v1.3
