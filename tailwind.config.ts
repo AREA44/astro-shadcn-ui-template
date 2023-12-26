@@ -1,9 +1,14 @@
 import type { Config } from 'tailwindcss'
-import { fontFamily } from 'tailwindcss/defaultTheme'
 
-export default {
+const config = {
   darkMode: ['class'],
-  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+  content: [
+    './pages/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+    './app/**/*.{ts,tsx}',
+    './src/**/*.{ts,tsx}',
+  ],
+  prefix: '',
   theme: {
     container: {
       center: true,
@@ -53,9 +58,6 @@ export default {
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
       },
-      fontFamily: {
-        sans: ['Inter', ...fontFamily.sans],
-      },
       keyframes: {
         'accordion-down': {
           from: { height: '0' },
@@ -74,3 +76,5 @@ export default {
   },
   plugins: [require('tailwindcss-animate')],
 } satisfies Config
+
+export default config
