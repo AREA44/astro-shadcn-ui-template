@@ -23,13 +23,13 @@ jobs:
       - name: Setup Zig
         uses: goto-bus-stop/setup-zig@v2
         with:
-          version: 0.11
+          version: 0.11.0
 
       - name: Install Dependencies
         run: bun install
-  
+
       - name: Format with Prettier
         run: bun exec prettier -w . "!.github"
-        
+
       - name: Run autofix.ci
         uses: autofix-ci/action@v1.3
