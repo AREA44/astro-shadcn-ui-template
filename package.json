@@ -17,10 +17,10 @@
     "@astrojs/react": "^3.0.10",
     "@astrojs/tailwind": "^5.1.0",
     "@radix-ui/react-slot": "^1.0.2",
-    "astro": "^4.4.9",
+    "astro": "^4.4.15",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
-    "lucide-react": "^0.344.0",
+    "lucide-react": "^0.354.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sharp": "^0.33.2",
@@ -29,13 +29,13 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@types/node": "^20.11.24",
-    "@types/react": "^18.2.61",
-    "@types/react-dom": "^18.2.19",
+    "@types/node": "^20.11.25",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
     "prettier": "^3.2.5",
     "prettier-plugin-astro": "^0.13.0",
-    "prettier-plugin-tailwindcss": "^0.5.11",
-    "typescript": "^5.3.3"
+    "prettier-plugin-tailwindcss": "^0.5.12",
+    "typescript": "^5.4.2"
   },
   "packageManager": "pnpm@8.15.4"
 }
