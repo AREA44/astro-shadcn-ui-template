@@ -28,11 +28,17 @@ Shadcn UI is a collection of re-usable components that can be easily integrated 
 
 To add a new component to your application, please refer to the [configuration guide](https://ui.shadcn.com/docs/installation/astro#thats-it).
 
+> [!NOTE]
+> In Astro, an [island](https://docs.astro.build/en/concepts/islands/) refers to any interactive UI component on the page. To add an interactive component like [Accordion](https://ui.shadcn.com/docs/components/accordion), [Dialog](https://ui.shadcn.com/docs/components/dialog) and more you have a couple of solutions available: [Add a Shadcn UI Component - Space Madness](https://spacemadness.dev/docs/add-a-shadcn-ui-component) or [shadcn-ui/ui#2890](https://github.com/AREA44/astro-shadcn-ui-template/issues/66).
+
+
 For detailed documentation on using Shadcn UI, please visit the [full documentation](https://ui.shadcn.com/docs).
 
 Shadcn UI is primarily built for the React framework. If you are unfamiliar with framework components in Astro, we recommend reading the [framework components guide](https://docs.astro.build/en/core-concepts/framework-components/) to get started.
 
 Feel free to explore the various components and enhance your application with Shadcn UI!
+
+
 
 ## License
 
