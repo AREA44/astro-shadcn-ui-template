@@ -11,19 +11,22 @@ jobs:
   autofix:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repository using git
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Install Bun
-        uses: oven-sh/setup-bun@v1
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          bun-version: latest
+          node-version-file: .nvmrc
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
 
       - name: Install dependencies
-        run: bun install
-
+        run: pnpm install --no-frozen-lockfile
       - name: Format with Prettier
-        run: bunx prettier -w . "!.github"
+        run: pnpm exec prettier -w . "!.github"
 
       - name: Run autofix.ci
         uses: autofix-ci/action@v1.3
