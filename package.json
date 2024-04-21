@@ -1,5 +1,5 @@
 {
-  "name": "@area44/astro-shadcn-ui-template",
+  "name": "@area44/astro-coverflow-carousel",
   "version": "23.12.26",
   "description": "An Astro template for building apps.",
   "author": {
@@ -20,6 +20,7 @@
     "astro": "^4.6.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "framer-motion": "^11.1.7",
     "lucide-react": "^0.372.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

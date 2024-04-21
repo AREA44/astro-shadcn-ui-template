@@ -5,7 +5,7 @@ import tailwind from '@astrojs/tailwind'
 // https://astro.build/config
 export default defineConfig({
   site: process.env.CI
-    ? 'https://astro-shadcn-ui-template.vercel.app'
+    ? 'https://area44.github.io/astro-coverflow-carousel'
     : 'http://localhost:4321',
   integrations: [
     react(),
