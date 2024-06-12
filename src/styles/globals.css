@@ -1,6 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+button {
+  cursor: pointer;
+}
 
 @layer base {
   :root {
@@ -33,6 +35,15 @@
     --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
+
+    --primary-300: #4ED9FF;
+    --primary-500: #06B6D4;
+    --primary-700: #0097B9;
+
+    --base-text: #a1a1aa;
+    --base-highlight: #FAFAFA;
+    --base-white: #FFFFFF;
+    --base-accent: #6b7280;
   }
 
   .dark {
@@ -63,14 +74,160 @@
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
+
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
+@theme {
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  --color-primary-300: var(--primary-300);
+  --color-primary-500: var(--primary-500);
+  --color-primary-700: var(--primary-700);
+
+  --color-base-text: var(--base-text);
+  --color-base-accent: var(--base-accent);
+  --color-base-highlight: var(--base-highlight);
+  --color-base-white: var(--base-white);
+
+  --animate-spotlight: spotlight 2s ease .75s 1 forwards;
+  --animate-meteor-effect: meteor 5s linear infinite;
+
+  --animate-in:  animateIn 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  --animate-out: animateOut 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards, fadeOut0 0.3s ease forwards;
+
+  @keyframes animateIn {
+    from {
+      opacity: 0;
+      transform: translateX(0px); 
+    }
+    to {
+      opacity: 1;
+      transform: translateX(-20px);
+    }
   }
-  body {
-    @apply bg-background text-foreground;
+
+  @keyframes animateOut {
+    from {
+      opacity: 1;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 0;
+      transform: translateX(0px); 
+    }
+  }
+
+  @keyframes fadeOut0 {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  @keyframes meteor {
+    0% {
+      transform: rotate(35deg) translateX(0);
+      opacity: 1;
+    }
+
+    70% {
+      opacity: 1;
+    }
+
+    100% {
+      transform: rotate(35deg) translateX(-500px);
+      opacity: 0;
+    }
+  }
+
+  @keyframes spotlight {
+    from {
+      opacity: 0;
+      transform: translate(-72%, -62%) scale(0.5);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate(-50%, -40%) scale(1);
+    }
+  }
+
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+
+    to {
+      height: "0";
+    }
+  }
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  color: hsl(var(--foreground)); 
+
+}
+
+
+
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1400px;
   }
 }
