@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 button {
   cursor: pointer;
@@ -36,13 +36,13 @@ button {
 
     --radius: 0.5rem;
 
-    --primary-300: #4ED9FF;
-    --primary-500: #06B6D4;
-    --primary-700: #0097B9;
+    --primary-300: #4ed9ff;
+    --primary-500: #06b6d4;
+    --primary-700: #0097b9;
 
     --base-text: #a1a1aa;
-    --base-highlight: #FAFAFA;
-    --base-white: #FFFFFF;
+    --base-highlight: #fafafa;
+    --base-white: #ffffff;
     --base-accent: #6b7280;
   }
 
@@ -74,7 +74,6 @@ button {
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
-
   }
 }
 
@@ -122,16 +121,17 @@ button {
   --color-base-highlight: var(--base-highlight);
   --color-base-white: var(--base-white);
 
-  --animate-spotlight: spotlight 2s ease .75s 1 forwards;
+  --animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
   --animate-meteor-effect: meteor 5s linear infinite;
 
-  --animate-in:  animateIn 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  --animate-out: animateOut 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards, fadeOut0 0.3s ease forwards;
+  --animate-in: animateIn 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  --animate-out: animateOut 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards,
+    fadeOut0 0.3s ease forwards;
 
   @keyframes animateIn {
     from {
       opacity: 0;
-      transform: translateX(0px); 
+      transform: translateX(0px);
     }
     to {
       opacity: 1;
@@ -146,7 +146,7 @@ button {
     }
     to {
       opacity: 0;
-      transform: translateX(0px); 
+      transform: translateX(0px);
     }
   }
 
@@ -203,7 +203,7 @@ button {
     }
 
     to {
-      height: "0";
+      height: '0';
     }
   }
 }
@@ -219,12 +219,8 @@ body {
   margin-left: auto;
   padding-right: 2rem;
   padding-left: 2rem;
-  color: hsl(var(--foreground)); 
-
+  color: hsl(var(--foreground));
 }
-
-
-
 
 @media (min-width: 1400px) {
   .container {
