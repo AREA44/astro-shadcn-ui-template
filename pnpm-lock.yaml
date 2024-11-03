@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@astrojs/react':
         specifier: ^3.6.2
-        version: 3.6.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vite@5.4.10(@types/node@22.8.6))
+        version: 3.6.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vite@5.4.10(@types/node@22.8.7))
       '@astrojs/tailwind':
         specifier: ^5.1.2
-        version: 5.1.2(astro@4.16.8(@types/node@22.8.6)(rollup@4.24.0)(typescript@5.6.3))(tailwindcss@3.4.14)
+        version: 5.1.2(astro@4.16.8(@types/node@22.8.7)(rollup@4.24.0)(typescript@5.6.3))(tailwindcss@3.4.14)
       '@radix-ui/react-icons':
         specifier: ^1.3.1
         version: 1.3.1(react@18.3.1)
@@ -22,7 +22,7 @@ importers:
         version: 1.1.0(@types/react@18.3.12)(react@18.3.1)
       astro:
         specifier: ^4.16.8
-        version: 4.16.8(@types/node@22.8.6)(rollup@4.24.0)(typescript@5.6.3)
+        version: 4.16.8(@types/node@22.8.7)(rollup@4.24.0)(typescript@5.6.3)
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.0
@@ -49,8 +49,8 @@ importers:
         version: 1.0.7(tailwindcss@3.4.14)
     devDependencies:
       '@types/node':
-        specifier: ^22.8.6
-        version: 22.8.6
+        specifier: ^22.8.7
+        version: 22.8.7
       '@types/react':
         specifier: ^18.3.12
         version: 18.3.12
@@ -724,8 +724,8 @@ packages:
   '@types/nlcst@2.0.3':
     resolution: {integrity: sha512-vSYNSDe6Ix3q+6Z7ri9lyWqgGhJTmzRjZRqyq15N0Z/1/UnVsno9G/N40NBijoYx2seFDIl0+B2mgAb9mezUCA==}
 
-  '@types/node@22.8.6':
-    resolution: {integrity: sha512-tosuJYKrIqjQIlVCM4PEGxOmyg3FCPa/fViuJChnGeEIhjA46oy8FMVoF9su1/v8PNs2a8Q0iFNyOx0uOF91nw==}
+  '@types/node@22.8.7':
+    resolution: {integrity: sha512-LidcG+2UeYIWcMuMUpBKOnryBWG/rnmOHQR5apjn8myTQcx3rinFRn7DcIFhMnS0PPFSC6OafdIKEad0lj6U0Q==}
 
   '@types/prop-types@15.7.11':
     resolution: {integrity: sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==}
@@ -2146,11 +2146,11 @@ snapshots:
     dependencies:
       prismjs: 1.29.0
 
-  '@astrojs/react@3.6.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vite@5.4.10(@types/node@22.8.6))':
+  '@astrojs/react@3.6.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vite@5.4.10(@types/node@22.8.7))':
     dependencies:
       '@types/react': 18.3.12
       '@types/react-dom': 18.3.1
-      '@vitejs/plugin-react': 4.3.1(vite@5.4.10(@types/node@22.8.6))
+      '@vitejs/plugin-react': 4.3.1(vite@5.4.10(@types/node@22.8.7))
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       ultrahtml: 1.5.3
@@ -2158,9 +2158,9 @@ snapshots:
       - supports-color
       - vite
 
-  '@astrojs/tailwind@5.1.2(astro@4.16.8(@types/node@22.8.6)(rollup@4.24.0)(typescript@5.6.3))(tailwindcss@3.4.14)':
+  '@astrojs/tailwind@5.1.2(astro@4.16.8(@types/node@22.8.7)(rollup@4.24.0)(typescript@5.6.3))(tailwindcss@3.4.14)':
     dependencies:
-      astro: 4.16.8(@types/node@22.8.6)(rollup@4.24.0)(typescript@5.6.3)
+      astro: 4.16.8(@types/node@22.8.7)(rollup@4.24.0)(typescript@5.6.3)
       autoprefixer: 10.4.20(postcss@8.4.47)
       postcss: 8.4.47
       postcss-load-config: 4.0.2(postcss@8.4.47)
@@ -2747,7 +2747,7 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.2
 
-  '@types/node@22.8.6':
+  '@types/node@22.8.7':
     dependencies:
       undici-types: 6.19.8
 
@@ -2766,14 +2766,14 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-react@4.3.1(vite@5.4.10(@types/node@22.8.6))':
+  '@vitejs/plugin-react@4.3.1(vite@5.4.10(@types/node@22.8.7))':
     dependencies:
       '@babel/core': 7.25.2
       '@babel/plugin-transform-react-jsx-self': 7.24.7(@babel/core@7.25.2)
       '@babel/plugin-transform-react-jsx-source': 7.24.7(@babel/core@7.25.2)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.4.10(@types/node@22.8.6)
+      vite: 5.4.10(@types/node@22.8.7)
     transitivePeerDependencies:
       - supports-color
 
@@ -2812,7 +2812,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro@4.16.8(@types/node@22.8.6)(rollup@4.24.0)(typescript@5.6.3):
+  astro@4.16.8(@types/node@22.8.7)(rollup@4.24.0)(typescript@5.6.3):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -2868,8 +2868,8 @@ snapshots:
       tsconfck: 3.1.4(typescript@5.6.3)
       unist-util-visit: 5.0.0
       vfile: 6.0.3
-      vite: 5.4.10(@types/node@22.8.6)
-      vitefu: 1.0.3(vite@5.4.10(@types/node@22.8.6))
+      vite: 5.4.10(@types/node@22.8.7)
+      vitefu: 1.0.3(vite@5.4.10(@types/node@22.8.7))
       which-pm: 3.0.0
       xxhash-wasm: 1.0.2
       yargs-parser: 21.1.1
@@ -4335,18 +4335,18 @@ snapshots:
       '@types/unist': 3.0.2
       vfile-message: 4.0.2
 
-  vite@5.4.10(@types/node@22.8.6):
+  vite@5.4.10(@types/node@22.8.7):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.47
       rollup: 4.24.0
     optionalDependencies:
-      '@types/node': 22.8.6
+      '@types/node': 22.8.7
       fsevents: 2.3.3
 
-  vitefu@1.0.3(vite@5.4.10(@types/node@22.8.6)):
+  vitefu@1.0.3(vite@5.4.10(@types/node@22.8.7)):
     optionalDependencies:
-      vite: 5.4.10(@types/node@22.8.6)
+      vite: 5.4.10(@types/node@22.8.7)
 
   web-namespaces@2.0.1: {}
 
