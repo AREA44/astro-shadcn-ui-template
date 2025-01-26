@@ -14,11 +14,11 @@
     "start": "astro dev"
   },
   "dependencies": {
-    "@astrojs/react": "^4.1.5",
-    "@astrojs/tailwind": "^5.1.4",
+    "@astrojs/react": "^4.1.6",
+    "@astrojs/tailwind": "^5.1.5",
     "@radix-ui/react-icons": "^1.3.2",
     "@radix-ui/react-slot": "^1.1.1",
-    "astro": "^5.1.7",
+    "astro": "^5.1.9",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "react": "^19.0.0",
@@ -29,12 +29,12 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@types/node": "^22.10.7",
-    "@types/react": "^19.0.7",
+    "@types/node": "^22.10.10",
+    "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "prettier": "^3.4.2",
     "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-tailwindcss": "^0.6.10",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "typescript": "^5.7.3"
   },
   "packageManager": "pnpm@9.15.4"
