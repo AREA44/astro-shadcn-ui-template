@@ -9,9 +9,9 @@
   "scripts": {
     "build": "astro build",
     "dev": "astro dev",
-    "format": "prettier -w . --cache",
     "preview": "astro preview",
-    "start": "astro dev"
+    "start": "astro dev",
+    "format": "biome format --write ."
   },
   "dependencies": {
     "@astrojs/react": "^4.1.6",
