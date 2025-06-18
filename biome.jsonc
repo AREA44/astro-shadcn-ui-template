@@ -1,5 +1,3 @@
 {
-  "extends": [
-    "@area44/biome-config/biome"
-  ]
+  "extends": ["@area44/biome-config/biome"]
 }
