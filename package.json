@@ -27,8 +27,8 @@
     "@tailwindcss/vite": "^4.3.3",
     "astro": "^7.3.1",
     "class-variance-authority": "^0.7.1",
-    "cn": "^0.2.5",
-    "lucide-react": "^1.41.0",
+    "cn": "^0.2.6",
+    "lucide-react": "^1.42.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "shadcn": "^4.21.0",
@@ -40,8 +40,8 @@
     "@types/node": "^24.13.3",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
-    "oxfmt": "^0.66.0",
-    "oxlint": "^1.81.0",
+    "oxfmt": "^0.67.0",
+    "oxlint": "^1.82.0",
     "typescript": "^7.0.2"
   }
 }
