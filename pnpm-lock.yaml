@@ -30,7 +30,7 @@ importers:
         specifier: ^0.2.6
         version: 0.2.6
       lucide-react:
-        specifier: ^1.44.0
+        specifier: ^1.45.0
         version: 1.45.0(react@19.3.0)
       react:
         specifier: ^19.3.0
